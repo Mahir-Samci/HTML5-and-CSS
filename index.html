@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>Mahir Samci</title>
+    <meta name="desciription" content="Mahir Samci Css example page">
+    <meta name="keywords" content="CSS page, example,HTML, try">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    </head>
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#sayfa{
+width: 400px;
+height: 600px;
+border-style: solid;
+border-width: 1px;
+margin: auto;
+
+}
+
+/* Banner*/
+#banner{
+    width: 398px;
+    background-color:white;
+height: 100px;
+border-style: double;
+border-width: 1px;
+margin: auto;}
+
+
+/* logo*/
+
+#logo{
+
+width: 100px;
+height: 80px;
+border-style:none;
+background-color:white;
+border-width: 1px;
+position: relative;
+top :15px;
+left: 5px;
+float: left;
+}
+
+#sosyal{
+width: 180px;
+height: 40px;
+border-style:none;
+border-width: 1px;
+background-color:white;
+float: right;
+position: relative;
+top :50px;
+right : 5px;
+}
+
+#icon{
+    float: right;
+    margin-left: 20px;
+   
+
+}
+
+/* Anamenu*/
+#anamenu{
+
+    width: 398px;
+    background-color:deepskyblue;
+height: 50px;
+border-style: double;
+border-width: 1px;
+margin: auto;
+
+}
+
+#anamenu ul{
+
+    list-style-type:none;
+}
+#anamenu ul li{
+    border-style: solid;
+    width: 75px;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: cornsilk;
+    float:left;
+    padding: 4px;
+    margin-left: 3px;
+    top: 50px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+#anamenu ul a{
+
+    text-decoration: none;
+    font-family: fantasy;
+    font-weight: 400px;
+    font-size: 12px;
+}
+
+#anamenu ul a:link{
+    color:blue;
+    }
+   
+    #anamenu ul a:visited{
+        color:red
+    }
+
+    #anamenu ul a:hover{
+        color:green;
+        text-decoration: underline;
+    }
+    #anamenu ul a:active{
+        color:yellow
+    }
+   
+/* Icerik ve Yanmenu kodlari*/
+
+#icerik{
+    width: 300px;
+    background-color:white;
+min-height: 400px;
+border-style: double;
+border-width: 1px;
+float: left;
+}
+
+#yanmenu{
+    background-color:royalblue ;
+    width: 96px;
+    
+min-height: 400px;
+border-style: double;
+border-width: 1px;
+float: right;
+
+}
+
+.resimboyutu{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+}
+
+.metin{
+    font-family: fantasy;
+    font-size: 15px;
+    color:tomato;
+    
+}
+
+.baslik{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Footer bolumu*/
+
+#altmenu{
+    width: 398px;
+    background-color:deepskyblue;
+height: 50px;
+border-style: double;
+border-width: 1px;
+float: left;
+text-align: center;
+}
+#altmenu a{
+    color: black;
+    font-weight: bolder;
+}
+#altmenu a:hover{
+    color:red
+}
+
+
+/* body{
+    background-color: black;
+    background-image: url("resim/window.jpg"); } */
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <div id="sayfa">
+
+        <header id="banner">   
+            <div id="logo"> <a href="index.html"><img src="resim/logo.jpg" alt="Mahir" title="Mahir Samci"></a> 
+                 </div>
+
+            <div id="sosyal">  <a href="https://www.facebook.com/max.samuray"> <img id="icon" src="Resim/facebook.png" alt="facebook">  </a> 
+                            <a href="#"> <img id="icon" src="Resim/inst.png" alt="insta"> </a>
+                            <a href="#"> <img id="icon" src="Resim/Tik.jpg" alt="Tiktok"> </a>
+           </div>
+
+        </header>
+
+        <nav id="anamenu">     
+             <ul>
+                 <li> <a href="Index.html">Anasayfa </a> </li>
+                 <li> <a href="ben.html">BenIm </a> </li>
+                 <li> <a href="egitim.html">Egitim </a> </li>
+                 <li> <a href="iletisim.html">Iletisim </a> </li>
+             </ul>
+            </nav>
+        
+
+
+
+        <article id="icerik">  <img class="resimboyutu" src="resim/eye.jpg" alt="eye">  
+            <H1 class="baslik">HTML and CSS with Mahiro</H1>
+        <p class="metin">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur ullamcorper ex non vulputate. Cras eget diam pharetra, blandit nisl scelerisque, convallis tellus. Etiam pretium congue ultrices. Ut ipsum erat, sagittis nec luctus vitae, aliquet nec nibh. Ut laoreet rhoncus turpis eu condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris viverra metus condimentum, efficitur dolor at, tincidunt elit. Suspendisse posuere arcu vitae nisi pulvinar pellentesque. Mahir Samci is here to show you some HTML5 and CSS :)
+        </p>
+        
+        
+        
+        </article>
+
+
+        <aside id="yanmenu">   <h1>Side</h1> 
+        <p>并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Mahir Samci 大学拉丁系教授 </p>
+        </aside>
+        
+        
+        <footer id="altmenu">    
+
+           
+                 <a href="Index.html">Anasayfa | </a> 
+                 <a href="ben.html">BenIm |</a> 
+                 <a href="egitim.html">Egitim  |</a> 
+                <a href="iletisim.html">Iletisim |</a> <br>
+                <p>copy reserved</p>
+            
+
+        </footer>
+
+
+    </div>
+     
+</body>
+
+</html>
